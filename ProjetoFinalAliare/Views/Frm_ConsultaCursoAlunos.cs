@@ -21,7 +21,7 @@ namespace ProjetoFinalAliare
 
         private void PopularComboBox()
         {
-            var cursos = TurmaController.SelecionarCursos();
+            var cursos = CursoController.SelecionarCursos();
 
             foreach (var curso in cursos)
             {
@@ -45,7 +45,7 @@ namespace ProjetoFinalAliare
             else
             {
                 //retorna uma lista de alunos por curso
-                var alunos = TurmaController.ListaAlunos(nomeCurso);
+                var alunos = CursoController.ListaAlunos(nomeCurso);
                 //Exibe a lista de alunos no DataGrid
                 TabelaDeAlunos(alunos);
                 //Somatório de alunos por curso
@@ -82,7 +82,7 @@ namespace ProjetoFinalAliare
         private DataTable GerarDadosRelatorio()
         {
             var nomeCurso = Cbox_SelecionaCurso.Text;
-            var curso = TurmaController.ListaAlunos(nomeCurso);
+            var curso = CursoController.ListaAlunos(nomeCurso);
             var table = TabelaDeAlunos(curso);
 
             var dt = new DataTable();

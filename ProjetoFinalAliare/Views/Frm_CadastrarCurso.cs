@@ -31,7 +31,7 @@ namespace ProjetoFinalAliare
                 var cargaHoraria = int.Parse(Txb_CargaHoraria.Text);
                 
                 var curso = new Curso(nome, cargaHoraria);
-                TurmaController.InserirCurso(curso);
+                CursoController.InserirCurso(curso);
                 MessageBox.Show("Dados inseridos com sucesso!");
             }
             catch (Exception ex)

@@ -29,7 +29,7 @@ namespace ProjetoFinalAliare
 
         private void PopularComboBox()
         {
-            var cursos = TurmaController.SelecionarCursos();
+            var cursos = CursoController.SelecionarCursos();
 
             foreach (var curso in cursos)
             {

@@ -134,6 +134,11 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Controller\TurmaController.cs" />
+    <Compile Include="Migrations\202206061432045_FaculdadeTurma.cs" />
+    <Compile Include="Migrations\202206061432045_FaculdadeTurma.designer.cs">
+      <DependentUpon>202206061432045_FaculdadeTurma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Turma.cs" />
     <Compile Include="Views\Frm_Contato.cs">
       <SubType>Form</SubType>
@@ -165,11 +170,6 @@
     <Compile Include="Views\Frm_RelatorioCursos.Designer.cs">
       <DependentUpon>Frm_RelatorioCursos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202206010116064_Faculdade.cs" />
-    <Compile Include="Migrations\202206010116064_Faculdade.designer.cs">
-      <DependentUpon>202206010116064_Faculdade.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Context\Context.cs" />
     <Compile Include="Views\Frm_CadastrarCurso.cs">
       <SubType>Form</SubType>
@@ -244,6 +244,9 @@
     </Compile>
     <Compile Include="Controller\CursoController.cs" />
     <Compile Include="Services\ValidacaoCPF.cs" />
+    <EmbeddedResource Include="Migrations\202206061432045_FaculdadeTurma.resx">
+      <DependentUpon>202206061432045_FaculdadeTurma.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Frm_Contato.resx">
       <DependentUpon>Frm_Contato.cs</DependentUpon>
     </EmbeddedResource>
@@ -258,9 +261,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Frm_RelatorioCursos.resx">
       <DependentUpon>Frm_RelatorioCursos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202206010116064_Faculdade.resx">
-      <DependentUpon>202206010116064_Faculdade.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Relatorios\RelatorioAlunoCurso.rdlc" />
     <EmbeddedResource Include="Relatorios\RelatorioCursoAlunos.rdlc" />

@@ -15,7 +15,7 @@ namespace ProjetoFinalAliare
         {
             using (var context = new Context())
             {
-                var alunos = context.Aluno.Include(c => c.Curso).Include(c => c.Turma).ToList();
+                var alunos = context.Aluno.Include(c => c.Curso.Turmas).ToList();
                 return alunos;
             } 
         }

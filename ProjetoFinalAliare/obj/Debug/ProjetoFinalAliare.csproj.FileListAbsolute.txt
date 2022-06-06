@@ -576,7 +576,6 @@ C:\Users\marce\OneDrive\Marcelo\AliareEstagio\ProjetoComTurma\Projeto_Final_Alia
 C:\Users\marce\OneDrive\Marcelo\AliareEstagio\ProjetoComTurma\Projeto_Final_Aliare-master\ProjetoFinalAliare\obj\Debug\ProjetoFinalAliare.Frm_RelatorioAlunoCurso.resources
 C:\Users\marce\OneDrive\Marcelo\AliareEstagio\ProjetoComTurma\Projeto_Final_Aliare-master\ProjetoFinalAliare\obj\Debug\ProjetoFinalAliare.Frm_RelatorioCursoAlunos.resources
 C:\Users\marce\OneDrive\Marcelo\AliareEstagio\ProjetoComTurma\Projeto_Final_Aliare-master\ProjetoFinalAliare\obj\Debug\ProjetoFinalAliare.Frm_RelatorioCursos.resources
-C:\Users\marce\OneDrive\Marcelo\AliareEstagio\ProjetoComTurma\Projeto_Final_Aliare-master\ProjetoFinalAliare\obj\Debug\ProjetoFinalAliare.Migrations.Faculdade.resources
 C:\Users\marce\OneDrive\Marcelo\AliareEstagio\ProjetoComTurma\Projeto_Final_Aliare-master\ProjetoFinalAliare\obj\Debug\ProjetoFinalAliare.Frm_CadastrarCurso.resources
 C:\Users\marce\OneDrive\Marcelo\AliareEstagio\ProjetoComTurma\Projeto_Final_Aliare-master\ProjetoFinalAliare\obj\Debug\ProjetoFinalAliare.Frm_ConsultaCursoAlunos.resources
 C:\Users\marce\OneDrive\Marcelo\AliareEstagio\ProjetoComTurma\Projeto_Final_Aliare-master\ProjetoFinalAliare\obj\Debug\ProjetoFinalAliare.Frm_ConsultarCurso.resources
@@ -594,3 +593,4 @@ C:\Users\marce\OneDrive\Marcelo\AliareEstagio\ProjetoComTurma\Projeto_Final_Alia
 C:\Users\marce\OneDrive\Marcelo\AliareEstagio\ProjetoComTurma\Projeto_Final_Aliare-master\ProjetoFinalAliare\obj\Debug\ProjetoFinalAliare.csproj.CopyComplete
 C:\Users\marce\OneDrive\Marcelo\AliareEstagio\ProjetoComTurma\Projeto_Final_Aliare-master\ProjetoFinalAliare\obj\Debug\ProjetoFinalAliare.exe
 C:\Users\marce\OneDrive\Marcelo\AliareEstagio\ProjetoComTurma\Projeto_Final_Aliare-master\ProjetoFinalAliare\obj\Debug\ProjetoFinalAliare.pdb
+C:\Users\marce\OneDrive\Marcelo\AliareEstagio\ProjetoComTurma\Projeto_Final_Aliare-master\ProjetoFinalAliare\obj\Debug\ProjetoFinalAliare.Migrations.FaculdadeTurma.resources

@@ -35,7 +35,7 @@ namespace ProjetoFinalAliare
         private void Btn_Consulta_Click(object sender, EventArgs e)
         {
             LimparTextBoxes();
-            dataGridView1.DataSource = TurmaController.SelecionarCursos();
+            dataGridView1.DataSource = CursoController.SelecionarCursos();
             Btn_Editar.Enabled = true;
             Btn_Deletar.Enabled = true;
             dataGridView1.Columns["Alunos"].Visible = false;
@@ -70,8 +70,8 @@ namespace ProjetoFinalAliare
                     if (DialogResult.Yes == MessageBox.Show("Tem certeza que deseja apagar o registro?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
                     {
                         //Rotina de exclusão
-                        TurmaController.DeleteCurso(idCurso);
-                        dataGridView1.DataSource = TurmaController.SelecionarCursos();
+                        CursoController.DeleteCurso(idCurso);
+                        dataGridView1.DataSource = CursoController.SelecionarCursos();
 
                         //Confirmando exclusão para o usuário
                         MessageBox.Show("Registro apagado com sucesso", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);

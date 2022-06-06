@@ -29,7 +29,7 @@ namespace ProjetoFinalAliare
         private void Btn_Salvar_Click(object sender, EventArgs e)
         {
             var curso = UpdateCurso(int.Parse(Txb_IdCurso.Text));
-            TurmaController.UpdateCurso(curso);       
+            CursoController.UpdateCurso(curso);       
             MessageBox.Show("Dados inseridos com sucesso!");
             this.Close();
         }
@@ -41,7 +41,7 @@ namespace ProjetoFinalAliare
                 var nome = Txb_Nome.Text;
                 var cargaHoraria = int.Parse(Txb_CargaHoraria.Text);
                     
-                var curso = TurmaController.SelectCursoPorId(idCurso);
+                var curso = CursoController.SelectCursoPorId(idCurso);
                 curso.SetNome(nome);
                 curso.SetCargaHoraria(cargaHoraria);
 
